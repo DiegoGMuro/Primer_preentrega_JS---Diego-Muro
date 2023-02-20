@@ -52,30 +52,30 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
         case 1:
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 PrecioTotal(amsterdam, seleccionpasajeros, tarifa7d);
-                alert('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias es:' + ' ' + calculo + 'ARS')
+                alert('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + calculo + 'ARS')
 
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaAms14d () {
                     PrecioTotal = amsterdam * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaAms14d()
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaAms21d () {
                     PrecioTotal = amsterdam * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaAms21d()
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaAms28d () {
                     PrecioTotal = amsterdam * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaAms28d()
             }else{
                 function tarifaAmsM28d () {
                     PrecioTotal = amsterdam * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a AMSTERDAM por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaAmsM28d()
             }
@@ -84,31 +84,31 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 function tarifaBar7d () {
                     PrecioTotal = barcelona * seleccionpasajeros * tarifa7d
-                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBar7d();
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaBar14d () {
                     PrecioTotal = barcelona * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBar14d();
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaBar21d () {
                     PrecioTotal = barcelona * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBar21d();
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaBar28d () {
                     PrecioTotal = barcelona * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBar28d();
             }else{
                 function tarifaBarM28d () {
                     PrecioTotal = barcelona * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BARCELONA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBarM28d();
             }
@@ -117,31 +117,31 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 function tarifaBer7d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa7d
-                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBer7d();
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaBer14d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBer14d();
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaBer21d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBer21d();
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaBer28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBer28d();
             }else{
                 function tarifaBerM28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a BERLIN por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaBerM28d();
             }
@@ -150,31 +150,31 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 function tarifaRom7d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa7d
-                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaRom7d();
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaRom14d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaRom14d();
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaRom21d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaRom21d();
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaRom28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaRom28d();
             }else{
                 function tarifaRomM28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a ROMA por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaRomM28d();
             }
@@ -183,31 +183,31 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 function tarifaLon7d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa7d
-                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaLon7d();
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaLon14d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaLon14d();
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaBer21d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaLon21d();
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaLon28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaLon28d();
             }else{
                 function tarifaLonM28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a LONDRES por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaLonM28d();
             }
@@ -216,31 +216,31 @@ if ((seleccionDestino > 0 && seleccionDestino < 7) && (seleccionpasajeros > 0) &
             if(seleccionEstadia >= 1 && seleccionEstadia <= 7){
                 function tarifaPar7d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa7d
-                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaPar7d();
             }else if (seleccionEstadia >= 8 && seleccionEstadia <= 14) {
                 function tarifaPar14d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa14d
-                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaPar14d();
             }else if (seleccionEstadia >= 15 && seleccionEstadia <= 21) {
                 function tarifaPar21d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa21d
-                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaPar21d();
             }else if (seleccionEstadia >= 22 && seleccionEstadia <= 28) {
                 function tarifaPar28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifa28d
-                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaPar28d();
             }else{
                 function tarifaParM28d () {
                     PrecioTotal = berlin * seleccionpasajeros * tarifaM28d
-                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias es:' + ' ' + PrecioTotal + 'ARS')
+                    alert ('El precio final a PARIS por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + PrecioTotal + 'ARS')
                 }
                 tarifaParM28d();
             }
