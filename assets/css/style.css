@@ -81,3 +81,21 @@ h3{
         text-align: center;
     }
 }
+
+.alinear{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.alinear2{
+    text-align: center;
+    color: #033603;
+    font-style: oblique;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 50px;
+}
