@@ -6,7 +6,6 @@ alert('Bienvenido: ' + nombre + ' ' + apellido + '!!' + ' '+ 'Ud esta a punto de
 
 
 let seleccionDestino = parseInt(prompt('Seleccione una opcion: \n 1 - Amsterdam \n 2- Barcelona \n 3 - Berlin \n 4- Roma \n 5 - Londres \n 6- Paris '))
-
 while (seleccionDestino != 1 && seleccionDestino != 2 && seleccionDestino != 3 && seleccionDestino != 4 && seleccionDestino != 5 && seleccionDestino != 6 ){
     alert ('Debe ingresar una opcion valida')
     seleccionDestino = parseInt(prompt('Seleccione una opcion: \n 1 - Amsterdam \n 2- Barcelona \n 3 - Berlin \n 4- Roma \n 5 - Londres \n 6- Paris '))
@@ -20,7 +19,17 @@ const londres = 700000
 const paris = 600000
 
 let seleccionpasajeros =parseInt(prompt('Seleccione la cantidad de pasajeros'));
+while (seleccionpasajeros <= 0 ){
+    alert ('Debe ingresar una opcion valida')
+    seleccionpasajeros =parseInt(prompt('Seleccione la cantidad de pasajeros'));
+}
+
 let seleccionEstadia = parseInt(prompt('Seleccione dias entre la ida y la vuelta'));
+while (seleccionEstadia <= 0 ){
+    alert ('Debe ingresar una opcion valida')
+    seleccionEstadia = parseInt(prompt('Seleccione dias entre la ida y la vuelta'));
+}
+
 let tarifa7d = 1.40
 let tarifa14d = 1.30
 let tarifa21d = 1.20
