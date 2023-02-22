@@ -11,7 +11,7 @@ if (miEdad>= 18){
     alert('Su edad es:' + ' ' + miEdad + ' años, ' + 'Ud no podra cotizar pasajes, solamente consultarlos')
 }
 
-alert('Bienvenido: ' + nombre + ' ' + apellido + '!!' + ' '+ 'Ud esta a punto de cotizar / consultar pasajes a ciudades de Europa: Tenga en cuenta las tarifas de estadia maxima (mayor a 28 dias) que se detallan a continuacion, las mismas se incrementa un 10% ciento por cada 7 dias menos de estadia: \n * Amsterdam: Desde 500.000 \n * Barcelona: Desde 450.000 \n * Berlin: Desde 600.000 ARS \n * Roma: Desde 400.000 ARS \n * Londres: Desde 700.000 ARS \n * Paris: Desde 600.000 ARS');
+alert('Bienvenido: ' + nombre + ' ' + apellido + '!!' + ' '+ 'Ud esta a punto de cotizar / consultar pasajes a ciudades de Europa: Tenga en cuenta las tarifas de estadia maxima (mayor a 28 dias) que se detallan a continuacion, las mismas se incrementa un 10% por cada 7 dias menos de estadia: \n * Amsterdam: Desde 500.000 \n * Barcelona: Desde 450.000 \n * Berlin: Desde 600.000 ARS \n * Roma: Desde 400.000 ARS \n * Londres: Desde 700.000 ARS \n * Paris: Desde 600.000 ARS');
 
 
 let seleccionDestino = Number(prompt('Seleccione una opcion: \n 1 - Amsterdam \n 2- Barcelona \n 3 - Berlin \n 4- Roma \n 5 - Londres \n 6- Paris '))
@@ -55,7 +55,7 @@ let tarifaM28d = 1.00
 // Funcion generica para todos los Destinos y Estadias
 function PrecioTotal(precio, pasajeros, tarifa){
     var calculo = precio * pasajeros * tarifa
-    alert('El precio final por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es:' + ' ' + calculo + 'ARS')
+    alert('El precio final por ' + seleccionEstadia + ' dias y ' + seleccionpasajeros + ' pasajeros es: ARS' + ' ' +  calculo.toLocaleString('es-AR'))
 
 }
 
